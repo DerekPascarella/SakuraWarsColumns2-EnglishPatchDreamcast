@@ -1,4 +1,10 @@
 #!/usr/bin/perl
+#
+# Written by Derek Pascarella (ateam)
+#
+# ten2_creator - TEN2 compressed file creator
+#
+# Usage: ten2_creator <UNCOMPRESSED_SOURCE_FILE> <COMPRESSED_TARGET_FILE>
 
 use strict;
 use String::HexConvert ':all';
