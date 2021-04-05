@@ -1,4 +1,9 @@
 #!/usr/bin/perl
+#
+# Written by Derek Pascarella (ateam)
+#
+# Sakura Wars: Columns 2
+# Script Parser/Extractor
 
 $file_name = $ARGV[0];
 
