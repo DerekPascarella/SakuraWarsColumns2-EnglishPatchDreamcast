@@ -1,4 +1,10 @@
 #!/usr/bin/perl
+#
+# Written by Derek Pascarella (ateam)
+#
+# z2_build - Z2 archive builder
+#
+# Usage: z2_build <HEADER_FILE> <TARGET_Z2_FILE>
 
 use strict;
 use String::HexConvert ':all';
