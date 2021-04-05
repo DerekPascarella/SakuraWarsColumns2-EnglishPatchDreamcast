@@ -1,8 +1,12 @@
 #!/usr/bin/perl
 #
-# LINE1 - 28 chars
-# LINE2 - 28 chars
-# LINE3 - 26 chars
+# Written by Derek Pascarella (ateam)
+#
+# dialog_tester_and_encoder
+# Simple webapp for testing "Sakura Wars: Columns 2" dialog lines to
+# ensure they fit in the allotted space provided by dialog boxes.
+# Page also outputs hex values for dialog text input, including new-
+# line characters.
 
 use CGI qw(:standard);
 use String::HexConvert ':all';
