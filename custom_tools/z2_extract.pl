@@ -1,4 +1,10 @@
 #!/usr/bin/perl
+#
+# Written by Derek Pascarella (ateam)
+#
+# z2_extract - Z2 archive extracter
+#
+# Usage: z2_extract <Z2_FILE>
 
 use strict;
 use File::Path;
