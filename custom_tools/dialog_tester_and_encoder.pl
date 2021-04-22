@@ -24,6 +24,7 @@ if($text ne "")
 {
 	$text = unidecode($text);	
 	$text =~ s/^\s+|\s+$//g;
+	$text =~ s/ +/ /;
 	$text =~ s/’/'/g;
 	$text =~ s/”/"/g;
 	$text =~ s/“/"/g;
