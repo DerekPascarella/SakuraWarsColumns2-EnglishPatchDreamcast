@@ -62,7 +62,7 @@ print "
 <input type=\"hidden\" name=\"mode\" value=\"test\">
 <label for\"text\">Text:</label>
 <br>
-<input type=\"text\" name=\"text\" id=\"text\" rows=\"5\" style=\"width: 100%\" value=\"$text_for_form\"\">
+<input type=\"text\" name=\"text\" id=\"text\" rows=\"5\" style=\"width: 100%\" value=\"$text_for_form\">
 <br><br>
 <center><i>Text must fit on 3 lines with 28 characters on lines 1 and 2, and 26 on line 3.</i></center>
 <br>
