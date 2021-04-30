@@ -139,7 +139,8 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 |      roles of the translation patch team.
 |   -> Even though its half-width and not variable-width, the Latin character font
 |      sheet has been cleaned up for better aesthetics, including the addition of
-|      the accented "è" used when Iris calls Ogami "Mon Frère."
+|      the accented "è" used when Iris calls Ogami "Mon Frère," and the accented
+|      "ó" used when Kayama says "Adiós."
 |   -> The trailer FMV shown in attract mode has been subtitled in English.
 |
 | As is plain to see, this was quite an extensive undertaking.  It's also highly
@@ -150,7 +151,7 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 | patches I did ("Neon Genesis  Evangelion: Typing Project E" and "Taxi 2"), this
 | was much more of a group effort, so much so that I have difficulty in even using
 | the words "my patch" when describing it.  Because of the varied contributions of
-| the core group, as well as many  others, this release is as polished, complete,
+| the core group, as well as many others, this release is as polished, complete,
 | and awesome as it deserves to be.
 | 
 | Other than the technical contributors listed later in these notes, the core 
@@ -299,9 +300,13 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 | complete/unlocked save, and a cached version of the original Japanese 
 | website.  To copy the DLC or the save to your VMU, simply click on the 
 | respective link with the "A" button and then select the VMU onto which the 
-| file should be written.  The VMU files themselves were even translated so 
-| that their names and labels will appear in English when viewing them in the 
-| Dreamcast's home screen menu!
+| file should be written.
+|
+| Once you've downloaded all of the desired files to your VMU, you can exit the
+| browser by pressing the "L" button and then selecting the last option on the
+| bottom of the menu that appears.  If you view these save files in the
+| Dreamcast's home screen menu, you'll notice that all of their names and labels
+| appear in English, too!
 | 
 | In summary, if you've made it this far in the release notes, let me end by 
 | thanking you on behalf of the entire team.  The Dreamcast itself has given me 
