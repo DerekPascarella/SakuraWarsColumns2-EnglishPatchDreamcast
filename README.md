@@ -140,7 +140,8 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 |      roles of the translation patch team.
 |   -> Even though its half-width and not variable-width, the Latin character font
 |      sheet has been cleaned up for better aesthetics, including the addition of
-|      the accented "è" used when Iris calls Ogami "Mon Frère."
+|      the accented "è" used when Iris calls Ogami "Mon Frère," and the accented
+|      "ó" used when Kayama says "Adiós."
 |   -> The trailer FMV shown in attract mode has been subtitled in English.
 |
 | As is plain to see, this was quite an extensive undertaking.  It's also highly
@@ -151,7 +152,7 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 | patches I did ("Neon Genesis  Evangelion: Typing Project E" and "Taxi 2"), this
 | was much more of a group effort, so much so that I have difficulty in even using
 | the words "my patch" when describing it.  Because of the varied contributions of
-| the core group, as well as many  others, this release is as polished, complete,
+| the core group, as well as many others, this release is as polished, complete,
 | and awesome as it deserves to be.
 | 
 | Other than the technical contributors listed later in these notes, the core 
