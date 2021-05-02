@@ -143,6 +143,9 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 |      the accented "è" used when Iris calls Ogami "Mon Frère," and the accented
 |      "ó" used when Kayama says "Adiós."
 |   -> The trailer FMV shown in attract mode has been subtitled in English.
+|   -> VGA mode has been enabled, which mainly helps those who will be playing this
+|      patched game via CDI (i.e. burned disc), as all ODE solutions already have
+|      on-the-fly VGA patching.
 |
 | As is plain to see, this was quite an extensive undertaking.  It's also highly
 | likely that I accidentally left something off that list, which is why it may
