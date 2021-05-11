@@ -1,5 +1,5 @@
 Sakura Wars: Columns 2 (Hanagumi Taisen Columns 2)
-English Translation v1.0
+English Translation v1.1
 Sega Dreamcast
 
 Project Page:
@@ -38,7 +38,7 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 | MISCELLANEOUS GRAPHICS ASSISTANCE:
 | GriffithVIII        Patrick Traynor
 | AnimatedAF          Small Nerd
-| Einahpets
+| Einahpets           Danthrax4
 |
 `---------------------------------------------------
 
@@ -63,6 +63,122 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 |
 | 4) Once the process has completed, the newly patched GDI will be in the
 |    "patched_gdi" folder and ready for use.
+|
+`---------------------------------------------------
+
+
+.------------::[ v1.1 Release Notes ]::-------------
+|
+| First of all, let me start off by saying that the positive reaction to the
+| release of this patch has been incredible!  I can't begin to explain the
+| joy and satisfaction I feel when I see how many people are enjoying the hard
+| work that me and my team put into making this English translation of "Sakura
+| Wars: Columns 2" a reality.
+|
+| All of that being said, I knew that even after all of the testing by me and
+| others, there was a very high likelihood that some issues would be identified
+| once this patch was released in the wild.  Well, I was right.  However, funny
+| enough, almost all of the fixes in this v1.1 release address problems that I
+| myself identified!  Rest assured that these fixes are mostly typo corrections
+| and style improvements, so the v1.0 patch is still stable and solid.
+|
+| More specifically, the fixes in this release include:
+|
+|   -> Correcting a misaligned LIPS response entry in Kayama's story.
+|   -> Correcting two typos in Kayama's story.
+|   -> Correcting a typo in Sumire's story.
+|   -> Correcting a typo in Maria's story.
+|   -> Correcting a typo with Orihime's last name in the credits.
+|   -> Improving the labeling for spirit level and time-limit in puzzle-solving
+|      scenarios, where "SPIRIT DEFENSE XX%" has become "SPIRIT POWER XX%" and
+|      "T. LIMIT DEFENSE +XXs" has become "TIME ASSIST +XXs", both of which more
+|      accurately describe what these stats represent.
+|   -> Improving the spacing of the "POWER BOOST!" and "W.D." labels for the
+|      stats seen in puzzle-solving scenarios.
+|   -> Fixing a bug in my custom patching utility (now at v0.2).
+|   -> Adding an English error message that is displayed when attempting to
+|      download the included DLC or 100% unlocked save when modem/BBA issues are
+|      preventing the successful launch of the built-in web browser.
+|
+| To add some clarity to the last item on the above list, there exists certain
+| conditions under which the game's built-in web browser fails to launch.  Even
+| though the game in no way makes an outbound connection to the Internet in order
+| to retrieve the bundled DLC or 100% unlocked save, a sanity check of sorts
+| will prevent the browser from launching.  On original hardware, this failure
+| occurs when no modem or broadband adapter (BBA) is present, or if either of the
+| two is damaged.  In an emulator, this failure occurs when the modem or BBA is
+| not being emulated in the same way that other peripherals are, like the VMU.
+|
+| Being that Dreamcast modems are still holding up strongly to this day, I
+| currently have no plans to reverse-engineer the routine that performs this
+| sanity check.  However, since a few emulator users have reported this issue, I
+| will state here that I have successfully tested RetroArch+FlyCast with the HLE
+| BIOS option enabled.  So far, I have not been able to achieve this functionality
+| with NullDC or ReDream.
+|
+| That being said, I managed to create VMU files compatible with both NullDC and
+| ReDream that are available in the "vmu_files\emulators" folder found within this
+| patch.  These files can be placed in the root emulator folder and renamed to use
+| whichever VMU port you choose.  Note that these are not individual saves, but
+| are instead files that represent the entire contents of an emulated VMU.
+| Therefore, be sure not to overwrite your existing VMU files containing valuable
+| saves.
+|
+| For those with other methods of transferring individual files to a VMU, either
+| on original hardware or via emulation, I have included the individual VMI/VMS
+| files for the DLC and 100% unlocked save in the "vmu_files" folder found within
+| this patch.
+|
+| For the curious, there was also a bug report submitted to GitHub pointing out
+| some graphical corruption with one of the DLC puzzles:
+|
+|   -> https://bit.ly/3f5CEWa
+|
+| Interestingly enough, this bug actually also affects the original, unpatched
+| game.  Since this issue never appears anywhere outside of one or two DLC
+| puzzles, and because it also affects the original game, I have opted not to
+| spend time trying to reverse-engineer and fix it.
+|
+| Last thing to note is an edge-case bug that was found with my custom patching
+| utility:
+|
+|   -> https://bit.ly/3nY574f
+|
+| I managed to solve the issue, and it was the result of the gditools CLI
+| utility having some of the strangest behavior of anything I've ever worked
+| with.  In all fairness, it may not be the application's fault, but instead a
+| quirk of the bundled-up executable with the built-in Python interpreter and its
+| affect on Windows file paths as part of command parameters.  Either way, it's
+| been solved, and my custom patching utility is now at version 0.2.  This brings
+| me one step closer to providing the Dreamcast scene with a universal patcher!
+|
+| In closing, I'd like to give a special thanks to the following content creators
+| for featuring our project in their blogs, videos, and podcasts:
+|
+|   -> The Dreamcast Junkyard
+|        -https://bit.ly/3vR849x (article)
+|
+|   -> SEGAbits
+|        -https://bit.ly/3w5dAWv (article)
+|        -https://bit.ly/3nYsNFJ (trailer video)
+|
+|   -> SHIRO!
+|        -https://bit.ly/3h8MrgY (article)
+|        -https://bit.ly/3o1rshi (article)
+|        -https://bit.ly/3bd3OcH (video)
+|        -https://bit.ly/3etmlU4 (video)
+|
+|   -> Combat Revue Review
+|        -https://bit.ly/3evfkSL (article)
+|
+|   -> SEGA Driven
+|        -https://bit.ly/3bd3Dhx (article
+|
+|   -> Otaku Freaks
+|        -https://bit.ly/3ex4viU (article)
+|
+|   -> Found in Fanslation Podcast
+|        -https://bit.ly/2RGBfh2 (podcast)
 |
 `---------------------------------------------------
 
@@ -330,6 +446,17 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 
 
 .-----------------::[ Changelog ]::-----------------
+|
+| -> 2021-05-11 (v1.1)
+|      -Fixed misaligned LIPS response in Kayama's story.
+|      -Fixed two typos in Kayama's story.
+|      -Fixed typo in Sumire's story.
+|      -Fixed typo in Maria's story.
+|      -Fixed typo with Orihime's last name in the credits.
+|      -Improved labeling for status in puzzle-solving scenarios.
+|      -Added custom English error message for modem/BBA issues that prevent DLC
+|       and save file downloading.
+|      -Fixed a bug in the custom patcher (now at v0.2).
 |
 | -> 2021-05-03 (v1.0)
 |      -Initial release.
