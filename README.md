@@ -1,3 +1,6 @@
+#### Download this patch in DCP format for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a>:
+  * <a href="https://drive.google.com/file/d/1Lq8QCB4mycp6Y6kPuBykrYJOKOOUL8LE/view?usp=sharing">Sakura Wars - Columns 2 (ENG v1.1).dcp</a>
+<br>
 <pre>
 Sakura Wars: Columns 2 (Hanagumi Taisen Columns 2)
 English Translation v1.1
