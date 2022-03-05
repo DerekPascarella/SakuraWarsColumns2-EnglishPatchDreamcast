@@ -76,12 +76,12 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 | little v1.2 release to all the fans out there.  The changes aren't massive,
 | but they address a few important things (in my opinion):
 |
-|   ->Fixed typo in Kohran's victory message for "Shonen Red" mode.
-|   ->Fixed character mood erroneously showing "HAPPY" when it should be
-|     "GRUMPY".
-|   ->Removed ISP-settings-check from built-in web browser used to access DLC
-|     and unlocked save.
-|   ->Replaced built-in web browser with English version.
+|   -> Fixed typo in Kohran's victory message for "Shonen Red" mode.
+|   -> Fixed character mood erroneously showing "HAPPY" when it should be
+|      "GRUMPY".
+|   -> Removed ISP-settings-check from built-in web browser used to access DLC
+|      and unlocked save.
+|   -> Replaced built-in web browser with English version.
 |
 | Regarding the last two items on the list above, recall that I included all
 | DLC, as well as a fully 100% unlocked save, accessible directly from within
