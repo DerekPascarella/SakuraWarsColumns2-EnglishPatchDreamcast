@@ -1,5 +1,5 @@
 Sakura Wars: Columns 2 (Hanagumi Taisen Columns 2)
-English Translation v1.1
+English Translation v1.2
 Sega Dreamcast
 
 Project Page:
@@ -45,24 +45,54 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 
 .-----------::[ Patching Instructions ]::-----------
 |
-| TOSEC GDI SOURCE:
-| Hanagumi Taisen Columns 2 v1.000 (1999)(Sega)(JP)[!].zip
+| The .DCP patch file shipped with this release is designed for use with
+| Universal Dreamcast Patcher:
 |
-| Note that due to the way my custom patching utility works, checksums are not a
-| necessary form of patch validation.  Instead, this utility will always work with
-| any TOSEC-style GDI containing a .GDI file along with two .BINs and a .RAW file.
+| https://github.com/DerekPascarella/UniversalDreamcastPatcher
 |
-| 1) Open the "Sakura Wars - Columns 2 (Engish Translation Patcher Utility).exe"
-|    program.
+| Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and
+| Redump-style CUE disc images as source input.
 |
-| 2) Click "Select GDI" and then select the TOSEC-style source GDI to be patched.
-|    Note that the original GDI will not be modified during the patching process.
+| 1) Click "Select GDI or CUE" to open the source disc image.
 |
-| 3) Click "Apply Patch", which will create a copy of the original GDI and then
-|    apply the patch to it.
+| 2) Click "Select Patch" to open the .DCP patch file.
 |
-| 4) Once the process has completed, the newly patched GDI will be in the
-|    "patched_gdi" folder and ready for use.
+| 3) Click "Apply Patch" to generate the patched GDI.
+|    - The patched GDI will be generated in the folder from which the
+|      application is launched.
+|
+| 4) Click "Quit" to exit the application.
+|
+`---------------------------------------------------
+
+
+.------------::[ v1.2 Release Notes ]::-------------
+|
+| Almost a year after the last update to this patch, I decided to deliver this
+| little v1.2 release to all the fans out there.  The changes aren't massive,
+| but they address a few important things (in my opinion):
+|
+|   ->Fixed typo in Kohran's victory message for "Shonen Red" mode.
+|   ->Fixed character mood erroneously showing "HAPPY" when it should be
+|     "GRUMPY".
+|   ->Removed ISP-settings-check from built-in web browser used to access DLC
+|     and unlocked save.
+|   ->Replaced built-in web browser with English version.
+|
+| Regarding the last two items on the list above, recall that I included all
+| DLC, as well as a fully 100% unlocked save, accessible directly from within
+| the main menu of the game itself.  However, after initial release, some
+| emulator users reported seeing an error when attempting to launch the
+| built-in web browser to access that content.  At first, I misdiagnosed this
+| as a lack of modem/BBA emulation support, since others emulators (e.g.
+| Flycast) had no issue.  However, it turned out to be reproduceable on real
+| hardware (thanks again, MattoBii).
+|
+| Ultimately, I was able to remove this ISP-settings-check with an assembly
+| hack, meaning that everyone can now access that bonus content, no matter how
+| they're playing the game.  With that, I do believe this patch is complete!
+|
+| Enjoy, everyone!
 |
 `---------------------------------------------------
 
@@ -446,6 +476,14 @@ https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast
 
 
 .-----------------::[ Changelog ]::-----------------
+|
+| -> 2022-03-05 (v1.2)
+|      -Fixed typo in Kohran's victory message for "Shonen Red" mode.
+|      -Fixed character mood erroneously showing "HAPPY" when it should be
+|       "GRUMPY".
+|      -Removed ISP-settings-check from built-in web browser used to access DLC
+|       and unlocked save.
+|      -Replaced built-in web browser with English version.
 |
 | -> 2021-05-11 (v1.1)
 |      -Fixed misaligned LIPS response in Kayama's story.
